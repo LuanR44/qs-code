@@ -11,3 +11,7 @@ class MathSamples:
     @staticmethod
     def double(n):
         return n ** 2
+
+    @staticmethod
+    def power(base, exponent):
+        return base ** exponent
