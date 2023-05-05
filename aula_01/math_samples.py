@@ -6,5 +6,8 @@ class MathSamples:
             return 0
         if n <= 2:
             return 1
-        return MathSamples.fibonacci(n-1) \
-                + MathSamples.fibonacci(n-2)
+        return MathSamples.fibonacci(n-1) + MathSamples.fibonacci(n-2)
+
+    @staticmethod
+    def double(n):
+        return n ** 2
