@@ -1,3 +1,4 @@
+# Criando a classe
 def fizzbuzz(n):
     if isinstance(n, str):
         return n
